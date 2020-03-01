@@ -1,5 +1,5 @@
 body{
-    margin:0;
+    margin:50px;
     padding:0;
     box-sizing: border-box;
     display:block;
@@ -7,11 +7,29 @@ body{
 }
 
 
+.all{
+    position:fixed;
+    left:8px;
+    top:100px;
+    font-size:17px;
+    
+}
+
+.cards{
+    position:fixed;
+    left:8px;
+    top:125px;
+    font-size:17px;
+    
+}
+
 #pert1{
     max-width:60px;
     left:0px;
     margin:10px;
-    bottom:0px;
+    top:0px;
+    position:fixed;
+
 }
 
 #pert2{
@@ -19,7 +37,9 @@ body{
     margin-right:0px;
     position:fixed;
     right:0px;
+    top:0px;
     margin:10px;
+    transform: rotateZ(90deg);
 }
 
 #pert3{
@@ -28,6 +48,7 @@ body{
     position:fixed;
     bottom:0px;
     left:0px;
+    transform: rotateZ(45deg);
 }
 
 #pert4{
@@ -36,27 +57,40 @@ body{
     bottom: 0px;
     right: 0px;
     position: fixed;
+    transform: rotateZ(180deg);
 }
 
 
 .art{
-    width:90%;
+    width:100%;
     height:auto;
     margin:0 auto;
+    
+    
 }
 
 #art1{
     width:100%;
+    padding:20px 0;
 }
 
 #art2{
     width:100%;
+    padding:20px 0;
 }
 
 #art3{
     width:100%;
+    padding:20px 0;
 }
 
 #art4{
     width:100%;
+    padding:20px 0;
+}
+
+footer{
+    position:fixed;
+    right:0px;
+    bottom:0px;
 }
