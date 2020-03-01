@@ -1,4 +1,62 @@
 body{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    display:block;
     
 }
 
+
+#pert1{
+    max-width:60px;
+    left:0px;
+    margin:10px;
+    bottom:0px;
+}
+
+#pert2{
+    max-width:60px;
+    margin-right:0px;
+    position:fixed;
+    right:0px;
+    margin:10px;
+}
+
+#pert3{
+    max-width:60px;
+    margin:10px;
+    position:fixed;
+    bottom:0px;
+    left:0px;
+}
+
+#pert4{
+    max-width: 60px;
+    margin:10px;
+    bottom: 0px;
+    right: 0px;
+    position: fixed;
+}
+
+
+.art{
+    width:90%;
+    height:auto;
+    margin:0 auto;
+}
+
+#art1{
+    width:100%;
+}
+
+#art2{
+    width:100%;
+}
+
+#art3{
+    width:100%;
+}
+
+#art4{
+    width:100%;
+}
